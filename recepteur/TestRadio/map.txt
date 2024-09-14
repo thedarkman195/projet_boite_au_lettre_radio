@@ -1,0 +1,352 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                              c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o (__libc_csu_init)
+
+Discarded input sections
+
+ .debug_info    0x00000000      0x388 default\src\main.o
+ .debug_abbrev  0x00000000       0xc1 default\src\main.o
+ .debug_aranges
+                0x00000000       0x18 default\src\main.o
+ .debug_line    0x00000000      0x1b8 default\src\main.o
+ .debug_str     0x00000000      0x36b default\src\main.o
+ .debug_line    0x00000000      0x109 default\src\vectors.o
+ .debug_info    0x00000000       0x22 default\src\vectors.o
+ .debug_abbrev  0x00000000       0x12 default\src\vectors.o
+ .debug_aranges
+                0x00000000       0x28 default\src\vectors.o
+ .debug_str     0x00000000       0x56 default\src\vectors.o
+ .debug_ranges  0x00000000       0x20 default\src\vectors.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+CODE             0x00100000         0x00040000         xr
+VECT             0x00200000         0x00000040         rw
+DATA             0x00200040         0x00007fc0         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+LOAD c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+LOAD default\src\main.o
+LOAD default\src\vectors.o
+LOAD C:\SysGCC\raspberry\arm-linux-gnueabihf\sysroot\usr\lib\libwiringPi.so
+LOAD C:\SysGCC\raspberry\arm-linux-gnueabihf\sysroot\usr\lib\libwiringPiDev.so
+LOAD C:\SysGCC\raspberry\arm-linux-gnueabihf\sysroot\lib\libmcp23s17.a
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/libstdc++.so
+LOAD c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/libm.so
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib\libgcc_s.so.1
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib\libgcc.a
+END GROUP
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib\libgcc.a
+LOAD c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/libc.so
+START GROUP
+LOAD c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/libc.so.6
+LOAD c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a
+LOAD c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/ld-linux-armhf.so.3
+END GROUP
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/libgcc_s.so
+START GROUP
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib\libgcc_s.so.1
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib\libgcc.a
+END GROUP
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib\libgcc.a
+LOAD c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+LOAD c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+                0x00000000                PROVIDE (PxPrepareInit = 0x0)
+
+.note.gnu.build-id
+                0x00100000       0x24
+ .note.gnu.build-id
+                0x00100000       0x24 linker stubs
+
+.note.ABI-tag   0x00100024       0x20
+ .note.ABI-tag  0x00100024       0x20 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.rom_vectors    0x00100044       0x44
+ *(.vectors)
+ .vectors       0x00100044       0x44 default\src\vectors.o
+                0x00100048                __exception_handlers
+                0x00100068                vectors
+
+.text           0x00100088      0x3c4
+                0x00100088                stext = ABSOLUTE (.)
+                [!provide]                PROVIDE (__stext = ABSOLUTE (.))
+ *(.text*)
+ .text          0x00100088       0x3c c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+                0x00100088                _start
+ .text          0x001000c4       0x24 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+ .text          0x001000e8       0x90 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+ .text          0x00100178        0x0 default\src\main.o
+ .text          0x00100178      0x254 default\src\vectors.o
+                0x00100178                reset_vector
+ .text          0x001003cc       0x64 c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                0x001003cc                __libc_csu_init
+                0x0010042c                __libc_csu_fini
+ .text          0x00100430        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+ .text          0x00100430        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+ *(.gcc_except_table)
+ *(.eh_frame)
+ .eh_frame      0x00100430        0x4 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+ *(.gnu.warning)
+ *(.gnu.linkonce.t*)
+ *(.init)
+ .init          0x00100434        0x8 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+                0x00100434                _init
+ .init          0x0010043c        0x4 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+ *(.glue_7)
+ .glue_7        0x00100440        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00100440        0x0 linker stubs
+ *(.fixup)
+ *(.got)
+ .got           0x00100440        0x4 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ *(.fini)
+ .fini          0x00100444        0x4 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+                0x00100444                _fini
+ .fini          0x00100448        0x4 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+                0x0010044c                etext = .
+                [!provide]                PROVIDE (__etext = .)
+
+.vfp11_veneer   0x0010044c        0x0
+ .vfp11_veneer  0x0010044c        0x0 linker stubs
+
+.v4_bx          0x0010044c        0x0
+ .v4_bx         0x0010044c        0x0 linker stubs
+
+.plt            0x0010044c       0x44
+ .plt           0x0010044c       0x44 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+                0x00100460                abort@@GLIBC_2.4
+                0x0010046c                _exit@@GLIBC_2.4
+                0x00100478                __libc_start_main@@GLIBC_2.4
+
+.iplt           0x00100490        0x0
+ .iplt          0x00100490        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.rodata         0x00100490        0x4
+ *(.rodata*)
+ .rodata.cst4   0x00100490        0x4 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+                0x00100490                _IO_stdin_used
+ *(.rodata.*)
+ *(.toc)
+ *(.gnu.linkonce.r*)
+                0x00100494                . = ALIGN (0x4)
+
+.ARM.extab      0x00100494        0x0
+ .ARM.extab     0x00100494        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.ARM.exidx      0x00100494        0x8
+ .ARM.exidx     0x00100494        0x8 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.interp         0x0010049c       0x19
+ .interp        0x0010049c       0x19 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.version_d  0x001004b8        0x0
+ .gnu.version_d
+                0x001004b8        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.version    0x001004b6       0x16
+ .gnu.version   0x001004b6       0x16 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.version_r  0x001004cc       0x20
+ .gnu.version_r
+                0x001004cc       0x20 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.dynsym         0x001004ec       0xb0
+ .dynsym        0x001004ec       0xb0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.dynstr         0x0010059c       0xe0
+ .dynstr        0x0010059c       0xe0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.gnu.hash       0x0010067c       0x40
+ .gnu.hash      0x0010067c       0x40 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.rel.dyn        0x001006bc       0x28
+ .rel.got       0x001006bc        0x8 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .rel.plt       0x001006c4       0x20 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .rel.bss       0x001006e4        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .rel.data.rel.ro
+                0x001006e4        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .rel.iplt      0x001006e4        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.rodata1        0x001006e4        0x0
+ *(.rodata1)
+                0x001006e4                . = ALIGN (0x4)
+
+.jcr            0x001006e4        0x0
+ *(.jcr)
+                0x001006e4                . = ALIGN (0x4)
+
+.data           0x00200040      0x118 load address 0x001006e4
+                0x00200040                __ram_data_start = ABSOLUTE (.)
+ *(.data*)
+ .data          0x00200040        0x4 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+                0x00200040                __data_start
+                0x00200040                data_start
+ .data.rel.ro   0x00200044        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .data          0x00200044        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+ .data          0x00200044        0x4 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+                0x00200044                __dso_handle
+ .data          0x00200048        0x0 default\src\main.o
+ .data          0x00200048        0x0 default\src\vectors.o
+ .data          0x00200048        0x0 c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .data          0x00200048        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+ .data          0x00200048        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+ *(.gnu.linkonce.d*)
+ *(.data1)
+                0x00200048                _GOT1_START_ = ABSOLUTE (.)
+ *(.got1)
+                0x00200048                _GOT1_END_ = ABSOLUTE (.)
+                0x00200048                _GOT2_START_ = ABSOLUTE (.)
+ *(.got2)
+                0x00200048                _GOT2_END_ = ABSOLUTE (.)
+                0x00200048                . = ALIGN (0x4)
+                0x00200048                __DEVTAB__ = ABSOLUTE (.)
+ *(SORT_BY_NAME(.devtab*))
+                0x00200048                __DEVTAB_END__ = ABSOLUTE (.)
+                0x00200048                __NETDEVTAB__ = ABSOLUTE (.)
+ *(SORT_BY_NAME(.netdevtab*))
+                0x00200048                __NETDEVTAB_END__ = ABSOLUTE (.)
+                0x00200048                __CTOR_LIST__ = ABSOLUTE (.)
+ *(SORT_BY_NAME(.ctors*))
+                0x00200048                __CTOR_END__ = ABSOLUTE (.)
+                0x00200048                __DTOR_LIST__ = ABSOLUTE (.)
+ *(SORT_BY_NAME(.dtors*))
+                0x00200048                __DTOR_END__ = ABSOLUTE (.)
+ *(.dynamic)
+ .dynamic       0x00200048      0x110 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+                0x00200048                _DYNAMIC
+ *(.sdata*)
+ *(.sbss*)
+                0x001006e4                __rom_data_start = LOADADDR (.data)
+                0x00200158                __ram_data_end = .
+                [!provide]                PROVIDE (__ram_data_end = .)
+                0x00200158                _edata = .
+                [!provide]                PROVIDE (edata = .)
+                [!provide]                PROVIDE (__rom_data_end = (LOADADDR (.data) + SIZEOF (.data)))
+
+.got.plt        0x00200158       0x1c load address 0x001007fc
+ .got.plt       0x00200158       0x1c c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+                0x00200158                _GLOBAL_OFFSET_TABLE_
+
+.igot.plt       0x00200174        0x0 load address 0x00100818
+ .igot.plt      0x00200174        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+
+.tm_clone_table
+                0x00200174        0x0 load address 0x00100818
+ .tm_clone_table
+                0x00200174        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+ .tm_clone_table
+                0x00200174        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+
+.fini_array     0x00200174        0x4 load address 0x00100818
+ .fini_array    0x00200174        0x4 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+
+.init_array     0x00200178        0x4 load address 0x0010081c
+ .init_array    0x00200178        0x4 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+
+.bss            0x00200180      0x6a0 load address 0x00100820
+                0x00200180                . = ALIGN (0x4)
+                0x00200180                __bss_start = ABSOLUTE (.)
+ *(.scommon)
+ *(.dynbss)
+ .dynbss        0x00200180        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ *(.bss*)
+ .bss           0x00200180        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .bss           0x00200180        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+ .bss           0x00200180        0x1 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+ .bss           0x00200181        0x0 default\src\main.o
+ *fill*         0x00200181        0xf 
+ .bss           0x00200190      0x690 default\src\vectors.o
+                0x00200410                __interrupt_stack
+                0x00200420                _PxSysstackend
+                0x00200620                __startup_stack
+ .bss           0x00200820        0x0 c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .bss           0x00200820        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+ .bss           0x00200820        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+ *(.gnu.linkonce.b*)
+ *(COMMON)
+                0x00200820                __bss_end = ABSOLUTE (.)
+                0x00200820                . = ALIGN (0x4)
+                0x00200820                _end = .
+                [!provide]                PROVIDE (end = .)
+                0x00200820                PROVIDE (__end__ = .)
+                [!provide]                PROVIDE (__HEAP = .)
+                [!provide]                PROVIDE (__heap_end__ = (. + 0x40))
+                [!provide]                PROVIDE (__HEAP_END = (. + 0x40))
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(default\TestRadio.elf elf32-littlearm)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 default\src\main.o
+ .note.GNU-stack
+                0x00000000        0x0 c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+
+.ARM.attributes
+                0x00000000       0x2d
+ .ARM.attributes
+                0x00000000       0x2f c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crt1.o
+ .ARM.attributes
+                0x0000002f       0x23 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crti.o
+ .ARM.attributes
+                0x00000052       0x2f c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+ .ARM.attributes
+                0x00000081       0x34 default\src\main.o
+ .ARM.attributes
+                0x000000b5       0x1c default\src\vectors.o
+ .ARM.attributes
+                0x000000d1       0x31 c:\sysgcc\raspberry\bin\../arm-linux-gnueabihf/sysroot/usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x00000102       0x2f c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o
+ .ARM.attributes
+                0x00000131       0x23 c:/sysgcc/raspberry/bin/../arm-linux-gnueabihf/sysroot/lib/arm-linux-gnueabihf/crtn.o
+
+.comment        0x00000000       0x23
+ .comment       0x00000000       0x23 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtbegin.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000023       0x24 default\src\main.o
+ .comment       0x00000023       0x24 c:/sysgcc/raspberry/bin/../lib/gcc/arm-linux-gnueabihf/8/../../../../arm-linux-gnueabihf/lib/crtend.o

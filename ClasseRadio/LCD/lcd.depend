@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1700140271 source:c:\users\snir1\documents\2eme année\projet_vs_22\lcd\lcd\clcd.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.c"
+	"lcd-adafruit.h"
+	"CLCD.h"
+
+1700141504 c:\users\snir1\documents\2eme année\projet_vs_22\lcd\lcd\lcd-adafruit.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+
+1700141504 c:\users\snir1\documents\2eme année\projet_vs_22\lcd\lcd\lcd-adafruit.h
+
+1700140458 c:\users\snir1\documents\2eme année\projet_vs_22\lcd\lcd\clcd.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+
+1700141504 source:c:\users\snir1\documents\2eme année\projet_vs_22\lcd\lcd\lcd-adafruit.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+
+1700204322 source:c:\users\snir1\documents\2eme année\projet_vs_22\lcd\lcd\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+	"CLCD.h"
+

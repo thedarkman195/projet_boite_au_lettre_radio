@@ -1,0 +1,1 @@
+g++ -o "/home/pi/projects/emeteure/bin/ARM/Debug/emeteure.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pi/projects/emeteure/obj/ARM/Debug/batterie.o /home/pi/projects/emeteure/obj/ARM/Debug/CRadio.o /home/pi/projects/emeteure/obj/ARM/Debug/CSV.o /home/pi/projects/emeteure/obj/ARM/Debug/hx711.o /home/pi/projects/emeteure/obj/ARM/Debug/main.o -lwiringPi

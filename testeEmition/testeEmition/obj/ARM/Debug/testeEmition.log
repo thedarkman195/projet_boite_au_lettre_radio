@@ -1,0 +1,14 @@
+﻿  Validation des sources
+  Copie des sources à distance vers '10.121.41.128'
+  Validation de l'architecture
+  Validation de l'architecture
+  Démarrage de la build distante
+  Compilation des sources :
+  CRadio.cpp
+C:\Users\SNIR1\Documents\2eme année\projet_vs_22\testeEmition\testeEmition\..\..\recepteur\recepteur\CRadio.cpp(81,18): warning : comparison of integer expressions of different signedness: ‘int’ and ‘std::__cxx11::basic_string<char>::size_type’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\SNIR1\Documents\2eme année\projet_vs_22\testeEmition\testeEmition\..\..\recepteur\recepteur\CRadio.cpp(81,18): warning :      return (rlen == value.size());
+C:\Users\SNIR1\Documents\2eme année\projet_vs_22\testeEmition\testeEmition\..\..\recepteur\recepteur\CRadio.cpp(81,18): warning :              ~~~~~^~~~~~~~~~~~~~~
+  main.cpp
+  Liaison des objets
+  testeEmition.vcxproj -> C:\Users\SNIR1\Documents\2eme année\projet_vs_22\testeEmition\testeEmition\bin\ARM\Debug\testeEmition.out
+  Appel de 'gpio export 17 out'. Répertoire de travail : '/home/pi/projects/testeEmition/testeEmition/testeEmition/'

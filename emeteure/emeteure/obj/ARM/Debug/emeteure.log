@@ -1,0 +1,10 @@
+﻿  Validation des sources
+  Copie des sources à distance vers '10.121.41.146'
+  Validation de l'architecture
+  Validation de l'architecture
+  Démarrage de la build distante
+  Compilation des sources :
+  main.cpp
+  Liaison des objets
+  emeteure.vcxproj -> C:\Users\SNIR1\Documents\2eme année\mini projet\emeteure\emeteure\bin\ARM\Debug\emeteure.out
+  Appel de 'gpio export 17 out'. Répertoire de travail : '/home/pi/projects/emeteure/'

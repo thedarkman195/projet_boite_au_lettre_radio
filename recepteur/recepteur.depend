@@ -1,0 +1,77 @@
+# depslib dependency file v1.0
+1700809527 source:c:\users\snir1\documents\2eme année\mini projet\recepteur\clcd.cpp
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.c"
+	"lcd-adafruit.h"
+	"CLCD.h"
+
+1700659981 c:\users\snir1\documents\2eme année\mini projet\recepteur\lcd-adafruit.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+
+1700660007 c:\users\snir1\documents\2eme année\mini projet\recepteur\lcd-adafruit.h
+
+1700809586 c:\users\snir1\documents\2eme année\mini projet\recepteur\clcd.h
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+
+1700809584 source:c:\users\snir1\documents\2eme année\mini projet\recepteur\cradio.cpp
+	"CRadio.h"
+	<asm/termbits.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<iostream>
+
+1700659412 c:\users\snir1\documents\2eme année\mini projet\recepteur\cradio.h
+	<string>
+
+1700659981 source:c:\users\snir1\documents\2eme année\mini projet\recepteur\lcd-adafruit.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<wiringPi.h>
+	<mcp23017.h>
+	<lcd.h>
+	"lcd-adafruit.h"
+
+1700809626 source:c:\users\snir1\documents\2eme année\mini projet\recepteur\main.cpp
+	<wiringPi.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<time.h>
+	<mcp23017.h>
+	<lcd.h>
+	<asm/termbits.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+	<iostream>
+	"lcd-adafruit.h"
+	"CLCD.h"
+	"CRadio.h"
+

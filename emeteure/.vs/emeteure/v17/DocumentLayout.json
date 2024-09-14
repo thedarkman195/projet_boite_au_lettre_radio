@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\batterie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\batterie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\hx711.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\hx711.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\hx711.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\hx711.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CSV.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\CSV.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CSV.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\CSV.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CRadio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\CRadio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CRadio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\CRadio.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\batterie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{58DA05BC-D92B-4102-8E61-60A6E83B6E16}|emeteure\\emeteure.vcxproj|solutionrelative:emeteure\\batterie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "batterie.cpp",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\batterie.cpp",
+              "RelativeDocumentMoniker": "emeteure\\batterie.cpp",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\batterie.cpp",
+              "RelativeToolTip": "emeteure\\batterie.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-14T16:21:21.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CRadio.h",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CRadio.h",
+              "RelativeDocumentMoniker": "emeteure\\CRadio.h",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CRadio.h",
+              "RelativeToolTip": "emeteure\\CRadio.h",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-14T16:21:21.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CRadio.cpp",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CRadio.cpp",
+              "RelativeDocumentMoniker": "emeteure\\CRadio.cpp",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CRadio.cpp",
+              "RelativeToolTip": "emeteure\\CRadio.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-14T16:21:21.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CSV.h",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CSV.h",
+              "RelativeDocumentMoniker": "emeteure\\CSV.h",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CSV.h",
+              "RelativeToolTip": "emeteure\\CSV.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-14T16:21:21.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CSV.cpp",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CSV.cpp",
+              "RelativeDocumentMoniker": "emeteure\\CSV.cpp",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\CSV.cpp",
+              "RelativeToolTip": "emeteure\\CSV.cpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-14T16:21:21.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "hx711.h",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\hx711.h",
+              "RelativeDocumentMoniker": "emeteure\\hx711.h",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\hx711.h",
+              "RelativeToolTip": "emeteure\\hx711.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-14T16:21:21.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "hx711.cpp",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\hx711.cpp",
+              "RelativeDocumentMoniker": "emeteure\\hx711.cpp",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\hx711.cpp",
+              "RelativeToolTip": "emeteure\\hx711.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-14T16:21:21.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\main.cpp",
+              "RelativeDocumentMoniker": "emeteure\\main.cpp",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\main.cpp",
+              "RelativeToolTip": "emeteure\\main.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAIwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-14T16:21:21.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "batterie.h",
+              "DocumentMoniker": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\batterie.h",
+              "RelativeDocumentMoniker": "emeteure\\batterie.h",
+              "ToolTip": "C:\\Users\\aleyp\\OneDrive\\Documentos\\boite au lettre\\mini proj\\a rendre Hugo\\emeteure\\emeteure\\batterie.h",
+              "RelativeToolTip": "emeteure\\batterie.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-14T16:21:22.027Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
