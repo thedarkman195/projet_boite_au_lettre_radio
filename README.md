@@ -40,8 +40,6 @@ g++ -o emetteur emetteur.cpp
 g++ -o recepteur recepteur.cpp
 
 
-Voici le texte avec la mise en page correcte et un format simple à copier :
-
 ```
 ## Exécution
 
